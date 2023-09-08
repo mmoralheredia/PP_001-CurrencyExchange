@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    // Eliminar los botones desplegables de los input tipo number
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+body {
+    h1 {
+        text-align: center;
+    }
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cambio de Monedas</title>
+    <script type="module" src="/src/ts/index.ts" defer></script>
+</head>
+
+<body>
+    <h1>Cambio de Monedas</h1>
+    <menu class="menu">
+        <label for="exchangesRate">Tasa De Cambio: <input id="exchangesRate" type="number"></label>
+    </menu>
+    <main>
+        <div class="currencyOne">
+            <h4>Primera Moneda</h4>
+            <header>
+                <p>Denominación</p>
+                <p>Cantidad</p>
+                <p>Subtotal</p>
+            </header>
+            <button class="addField"> + </button>
+            <label for="1000">
+                <p>1000</p>
+                <input id="1000" type="number">
+                <input id="1000" class="subtotal" type="number" disabled>
+            </label>
+            <label for="500">
+                <p>500</p>
+                <input id="500" type="number">
+                <input id="500" class="subtotal" type="number" disabled>
+            </label>
+            <label for="200">
+                <p>200</p>
+                <input id="200" type="number">
+                <input id="200" class="subtotal" type="number" disabled>
+            </label>
+            <label for="100">
+                <p>100</p>
+                <input id="100" type="number">
+                <input id="100" class="subtotal" type="number" disabled>
+            </label>
+            <label for="50">
+                <p>50</p>
+                <input id="50" type="number">
+                <input id="50" class="subtotal" type="number" disabled>
+            </label>
+            <label for="20">
+                <p>20</p>
+                <input id="20" type="number">
+                <input id="20" class="subtotal" type="number" disabled>
+            </label>
+            <label class="total" for="total">
+                <p>Total: </p><input id="total" type="number">
+            </label>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p> Desarrollado por <a href="https://github.com/mmoralheredia">mmoralheredia</a></p>
+    </footer>
+
+</body>
+
+</html>

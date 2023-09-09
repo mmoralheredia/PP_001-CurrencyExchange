@@ -1,0 +1,19 @@
+menu {
+    text-align: center;
+
+    padding: 2px;
+
+    input {
+        width: 120px;
+
+        border: 0;
+        border-bottom: 2px solid black;
+        border-radius: 4px;
+        text-align: center;
+
+        &:focus {
+            outline: none;
+        }
+
+    }
+}

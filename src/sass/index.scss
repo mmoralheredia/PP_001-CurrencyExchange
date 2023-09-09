@@ -2,7 +2,10 @@
 @import './assets/variables';
 
 // Estilos bases
-@import './layout/base';
+@import './base/base';
+
+// Sección de Menu
+@import './layout/menu';
 
 // Estilos de sección main
 @import './layout/main';
